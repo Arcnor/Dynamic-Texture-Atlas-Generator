@@ -322,7 +322,7 @@ package com.emibap.textureAtlas
 			var selectedColorTransform:ColorTransform;
 			var frameBounds:Rectangle;
 			if (coalesce) {
-				frameBounds = new Rectangle(0, 0, swf.width, swf.height);
+				frameBounds = new Rectangle(0, 0, swf.width * scaleFactor, swf.height * scaleFactor);
 			} else {
 				frameBounds = new Rectangle(0, 0, 0, 0);
 			}
